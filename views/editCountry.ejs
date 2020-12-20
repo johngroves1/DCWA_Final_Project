@@ -1,0 +1,15 @@
+<h1>Edit Country</h1>
+
+
+<form action="/editCountry" method="POST">
+    <label>Country Code</label><br>
+    <input type="text" name="code" value = "<%=co_code%>"><br>
+    <label>Country Name</label><br>
+    <input type="text"  name="name" value = "<%=co_name%>"><br>
+    <label>Country Details</label><br>
+    <textarea type="text" name="details" rows="4" cols="50"><%=co_details%></textarea>
+
+    <input type="submit" value="Update">
+  </form>
+
+<a href="\">Home</a>
